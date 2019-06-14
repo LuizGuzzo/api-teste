@@ -17,6 +17,7 @@ module.exports = {
   */
 
   name: Env.get('APP_NAME', 'AdonisJs'),
+  port: Env.set('PORT', process.env.PORT || 3333),
 
   /*
   |--------------------------------------------------------------------------
